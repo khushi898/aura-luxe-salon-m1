@@ -355,6 +355,9 @@
   .py-8 {
     padding-block: calc(var(--spacing) * 8);
   }
+  .py-10 {
+    padding-block: calc(var(--spacing) * 10);
+  }
   .py-12 {
     padding-block: calc(var(--spacing) * 12);
   }
@@ -415,6 +418,9 @@
   .text-stone-800 {
     color: var(--color-stone-800);
   }
+  .text-stone-900 {
+    color: var(--color-stone-900);
+  }
   .text-white {
     color: var(--color-white);
   }
@@ -439,6 +445,9 @@
     .hover\:bg-gold:hover {
       background-color: var(--color-gold);
     }
+    .hover\:bg-stone-100:hover {
+      background-color: var(--color-stone-100);
+    }
     .hover\:text-gold:hover {
       color: var(--color-gold);
     }
@@ -461,6 +470,9 @@
   }
   .focus-visible\:outline-gold:focus-visible {
     outline-color: var(--color-gold);
+  }
+  .focus-visible\:outline-white:focus-visible {
+    outline-color: var(--color-white);
   }
   @media (width >= 40rem) {
     .sm\:grid-cols-2 {
